@@ -8,7 +8,7 @@ document.write(
 "            <span class='icon-bar'></span>\n" +
 "            <span class='icon-bar'></span>\n" +
 "          </button>\n" +
-"          <a class='navbar-brand visible-xs' href='#'><img src='images/MGF_navn.jpg' class='img-responsive' style='max-height: 25px'/></a>\n" +
+"          <a class='navbar-brand visible-xs' href='#'><img src='images/MGF_navn.jpg' class='img-responsive' style='max-width: 200px'/></a>\n" +
 "        </div>\n" +
 "\n" +
 "        <div class='collapse navbar-collapse' id='mgf-navbar-content'>\n" +
