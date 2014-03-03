@@ -13,14 +13,14 @@ document.write(
 "\n" +
 "        <div class='collapse navbar-collapse' id='mgf-navbar-content'>\n" +
 "          <ul class='nav navbar-nav'>\n" +
-"            <li class='active'><a href='index.html'><span class='glyphicon glyphicon-home'></span> Hjem</a></li>\n" +
-"            <li><a href='innmelding.html'><span class='glyphicon glyphicon-list-alt'></span> Innmelding og betaling</a></li>\n" +
-"            <li><a href='semesterplan.html'><span class='glyphicon glyphicon-calendar'></span> Semesterplan</a></li>\n" +
-"            <li class='dropdown'>\n" +
+"            <li id='meny-hjem'><a href='index.html'><span class='glyphicon glyphicon-home'></span> Hjem</a></li>\n" +
+"            <li id='meny-innmelding'><a href='innmelding.html'><span class='glyphicon glyphicon-list-alt'></span> Innmelding og betaling</a></li>\n" +
+"            <li id='meny-semesterplan'><a href='semesterplan.html'><span class='glyphicon glyphicon-calendar'></span> Semesterplan</a></li>\n" +
+"            <li id='meny-informasjon' class='dropdown'>\n" +
 "              <a href='#' class='dropdown-toggle' data-toggle='dropdown'><span class='glyphicon glyphicon-info-sign'></span> Informasjon</a>\n" +
 "              <ul class='dropdown-menu'>\n" +
-"                <li><a href='nyheter.html'>Nyheter</a></li>\n" +
-"                <li><a href='grasrotandelen.html'>Grasrotandelen</a></li>\n" +
+"                <li id='meny-nyheter'><a href='nyheter.html'>Nyheter</a></li>\n" +
+"                <li id='meny-grasrotandelen'><a href='grasrotandelen.html'>Grasrotandelen</a></li>\n" +
 "              </ul>\n" +
 "            </li>\n" +
 "          </ul>\n" +
