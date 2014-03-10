@@ -15,11 +15,12 @@ document.write(
 "          <ul class='nav navbar-nav'>\n" +
 "            <li id='meny-hjem'><a href='index.html'><span class='glyphicon glyphicon-home'></span> Hjem</a></li>\n" +
 "            <li id='meny-innmelding'><a href='innmelding.html'><span class='glyphicon glyphicon-list-alt'></span> Innmelding og betaling</a></li>\n" +
-"            <li id='meny-semesterplan'><a href='semesterplan.html'><span class='glyphicon glyphicon-calendar'></span> Semesterplan</a></li>\n" +
+"            <li id='meny-lokasjon'><a href='lokasjon.html'><span class='glyphicon glyphicon-map-marker'></span> Her finner du oss</a></li>\n" +
 "            <li id='meny-informasjon' class='dropdown'>\n" +
 "              <a href='#' class='dropdown-toggle' data-toggle='dropdown'><span class='glyphicon glyphicon-info-sign'></span> Informasjon</a>\n" +
 "              <ul class='dropdown-menu'>\n" +
 "                <li id='meny-nyheter'><a href='nyheter.html'>Nyheter</a></li>\n" +
+"                <li id='meny-semesterplan'><a href='semesterplan.html'>Semesterplan</a></li>\n" +
 "                <li id='meny-grasrotandelen'><a href='grasrotandelen.html'>Grasrotandelen</a></li>\n" +
 "              </ul>\n" +
 "            </li>\n" +

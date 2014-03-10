@@ -21,3 +21,9 @@
 .navbar-default .navbar-nav .open a:hover {
 	color: #0FB02D;
 }
+
+#map_canvas {
+	width: 400px;
+	height: 300px;
+	background-color: #CCC;
+}

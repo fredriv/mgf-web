@@ -5,9 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Manglerud Gymnastikkforening - Semesterplan</title>
+    <title>Manglerud Gymnastikkforening - Lokasjon</title>
 
     <link href="css/custom.css" rel="stylesheet" media="screen">
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script>
+      function initialize() {
+        var markerPos = new google.maps.LatLng(59.8955,10.8250);
+        var mapCenter = new google.maps.LatLng(59.8961, 10.8206);
+        var mapCanvas = document.getElementById('map_canvas');
+        var mapOptions = {
+          center: mapCenter,
+          zoom: 15,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions);
+        var marker = new google.maps.Marker({
+          position: markerPos,
+          map:map
+        })
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
   </head>
   <body>
     <script type="text/javascript" src="js/header.js"></script>
@@ -18,13 +37,9 @@
           <img src="images/MGF_logo.jpg" class="img-responsive" style="max-height: 100px" />
         </div>
         <div class="col-sm-8">
-          <h2>Semesterplaner</h3>
-          <p>Semesterplaner for v&aring;ren 2014:</p>
-          <ul>
-            <li><a href="doc/Semesterplan vaar 2014 - bjoern.docx">Bj&oslash;rn</a></li>
-            <li><a href="doc/Semesterplan vaar 2014 - hare.docx">Hare</a></li>
-            <li><a href="doc/Semesterplan vaar 2014 - mellom og junior.docx">Mellom &amp; junior</a></li>
-          </ul>
+          <h2>Her finner du oss</h2>
+          <p>Treningen foregår i Manglerud skoles gymsal:</p>
+          <div id="map_canvas"></div>
         </div>
         <div class="col-sm-2 hidden-xs">
           <img src="images/gronn turner.jpg" style="max-height: 100px" />
@@ -38,7 +53,7 @@
     <script src="js/bootstrap-3.1.0.min.js"></script>
 
     <script type="text/javascript">
-      $("#meny-informasjon").addClass("active");
+      $("#meny-lokasjon").addClass("active");
     </script>
   </body>
 </html>
