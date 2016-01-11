@@ -11,7 +11,7 @@ document.write(
   "              <a href='mailto:post@manglerudgymnastikkforening.no'>post@manglerudgymnastikkforening.no</a>\n" +
   "            </address>\n" +
   "          </div>\n" +
-  "          <div class='col-sm-3 text-right'>Sist oppdatert 21.12.2015</div>\n" +
+  "          <div class='col-sm-3 text-right'>Sist oppdatert 11.01.2016</div>\n" +
   "        </div>\n" +
   "      </div>\n" +
   "    </footer>");
